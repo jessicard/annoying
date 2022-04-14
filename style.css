@@ -1,0 +1,104 @@
+#cancel-window {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 312px;
+}
+
+h4 {
+  margin: 0;
+  padding: 12px;
+}
+
+/*
+
+    WIN95.CSS
+    https://github.com/AlexBSoft/win95.css
+    Author: Alex B (alex-b.me)
+    License: MIT
+
+    Version: 1.2.0
+    06.12.2020
+
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif;
+  background: teal;
+  color: white;
+  padding-bottom: 28px;
+}
+
+a {
+  color:#2d49eb;
+}
+
+.btn {
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-right-color: #424242;
+  border-bottom-color: #424242;
+  background: silver;
+  color: black;
+  padding: 4px;
+  border-radius: 1px;
+  margin: 10px auto 10px;
+  display: block;
+}
+
+.card {
+  border: solid;
+  border-width: 2px;
+  border-bottom-color: #424242;
+  border-right-color: #424242;
+  border-left-color: #fff;
+  border-top-color: #fff;
+  background: silver;
+  color:#212529;
+}
+
+.card-header {
+  background: -webkit-linear-gradient(left,#08216b,#a5cef7);
+  color: #fff;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  text-align: left;
+}
+
+.taskbar {
+  cursor: default;
+  background-color: silver;
+  margin: 16px 0 0 0;
+  padding: 0 8px;
+  position: static;
+  bottom: 0;
+  border-top: 2px outset #fff;
+  z-index: 228;
+  width: 100%;
+  margin-right: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.taskbar .start-button {
+  cursor: default;
+  display: inline-block;
+  border: 1px outset #fff;
+  padding: 0 0 0 2px;
+  box-shadow: 1px 1px #000;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
